@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "GCalendar mycss",
+  "version": "0.1",
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "https://calendar.google.com/*"
+      ],
+      "css": ["css.css"]
+    }
+  ]
+}
