@@ -1,13 +1,15 @@
 {
+  "$schema": "https://json.schemastore.org/chrome-manifest",
   "manifest_version": 3,
   "name": "GCalendar mycss",
   "version": "0.1",
-  "browser_action": {},
   "content_scripts": [
     {
       "matches": [
-        "https://calendar.google.com/*"
+        "https://calendar.google.com/*",
+        "https://contacts.google.com/*"
       ],
+      "all_frames": true,
       "css": ["css.css"]
     }
   ]

@@ -1,6 +1,9 @@
 html {
   filter: invert(1) hue-rotate(180deg);
 }
-img, div[style^="background-image:"] {
+
+iframe,
+img,
+div[style^="background-image:"] {
   filter: invert(1) hue-rotate(180deg);
 }
